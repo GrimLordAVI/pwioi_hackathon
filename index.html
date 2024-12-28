@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcticWave | Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="server.js">
+    <link rel="shortcut icon" href="public/images/logo-new-hack.ico" >
+    <script src="div.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+
+<style type="text/css">
+    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: azure;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: rgb(175, 70, 240);
+    font-size: 18px;
+}
+.header-text~span {
+    white-space: nowrap;
+    color: rgb(255, 54, 54);
+}
+.bi-lightning-fill{
+    color: gold;
+}
+.header1{
+    display: flex;
+    padding: 40px;
+    margin-top: -30px;
+    justify-content: space-between;
+}
+
+.bi-person{
+    padding:15px;
+    font-size: 17px;
+}
+.bi-cart4{
+    padding:15px;
+    font-size: 17px;
+}
+.bi-truck{
+    padding:15px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.58fr 2.5fr;
+    
+}
+.brand{
+    color:rgb(255, 252, 252);
+    padding: 10px;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.brand
+.help{
+    color: rgb(255, 253, 253);
+    padding-bottom: 15px;
+    padding-top: 23px;
+    font-size: 20px;
+}
+.help~ a{
+    display: block;
+    padding: 5px;
+    color: rgb(255, 54, 54);
+}
+.brand~a{
+    margin-right: 3px;
+    padding-left: 20px;
+    color: rosybrown;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a1:visited{
+    color: red;
+} 
+.pdescription{
+  display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.card-body p{
+    color: rgb(223, 113, 113);
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px;
+}
+.pdescription{
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px;
+}
+</style>
+
+
+<body class="container-fluid">
+    <header>
+        <div class="header-text" style="background-color: rgb(25, 232, 177); padding: 5px;">
+            <marquee>
+              <article >
+              <span class="bi bi-lightning-fill"></span>
+              <span><span style="color: rgb(72, 1, 1);">New Year Sale :</span> <span style="color: rgb(110, 39, 216);">Above @ 5199 Get Upto 15% Discount |  </span> </span>
+              <span style="color: rgb(58, 73, 75);">COD Payment Option Available</span>  
+              <span> |  Free Shipping Above @ 4000</span>
+              <span class="bi bi-lightning-fill"></span>
+            </article>  
+          </marquee>
+          </div>
+    </header>
+
+    <div class="header1">
+        <div>
+        <a href="index.html"><span><img src="../Public/Images/HACKATHON2.png" height="80px" width="300px"></span></a>
+        <span class="btn-group">
+        &nbsp;&nbsp;&nbsp; <input type="text" autofocus placeholder="                                Search ArcticWave " name="amazon" size="50" class="rounded-start border-0 "  style="margin-left: 150px;">
+        <button class="btn btn-secondary">
+            <span class="bi bi-search"></span>
+        </button>
+        </span>
+        </div>
+
+        <div class="icons" style="margin-top: 25px;">
+        <a href="#"><span class="bi bi-person" style="font-size: 24px;"></span>
+            <span style=" font-size: 20px; margin-left:-11px;">ᴀᴄᴄᴏᴜɴᴛ</span></a> 
+
+        <a href="#"><span class=" bi bi-cart4" style="font-size: 24px; margin-left: 9px;"></span>
+            <span style="font-size: 20px; margin-left:-11px;">ᴄᴀʀᴛ</span></a>
+
+        <a href="#"><span class=" bi bi-truck" style="font-size: 24px; margin-left: 9px;"></span>
+            <span style="font-size: 20px; margin-left:-11px;">ᴛʀᴀᴄᴋ ᴏʀᴅᴇʀ</span></a>
+        </div>
+    </div>
+    <div style="border: 0.1px solid  rgb(227, 143, 143); margin-top: -15px; ">
+    </div>
+    <div class="header finisher-header" style="width: 100vw; height: 330vh;">
+        <script src="finisher-header.es5.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            new FinisherHeader({
+              "count": 100,
+              "size": {
+                "min": 1,
+                "max": 10,
+                "pulse": 0
+              },
+              "speed": {
+                "x": {
+                  "min": 0,
+                  "max": 0.4
+                },
+                "y": {
+                  "min": 0,
+                  "max": 0.6
+                }
+              },
+              "colors": {
+                "background": "#201e30",
+                "particles": [
+                  "#fbfcca",
+                  "#d7f3fe",
+                  "#ffd0a7"
+                ]
+              },
+              "blending": "overlay",
+              "opacity": {
+                "center": 1,
+                "edge": 0
+              },
+              "skew": 0,
+              "shapes": [
+                "c"
+              ]
+            });
+            </script>
+    
+</div>
+<div>
+    <iframe src="public\vedios\WhatsApp Video 2024-12-28 at 08.01.24_e6e00465.mp4" frameborder="0" height="800px" width="100%" autoplay="yes"></iframe>
+</div>
+    <div class="pdescription m-3 p-3 ">
+        <img src="public\images\a small  feature.png" width="1500px" height="800px" margin="20px">
+    </div>
+    <div class="container-fluid m-3 p-3">
+       <section class="card-section">
+            <div class="row p-2">
+                <div class="col-md-3" style="transform: scale(1.1); box-shadow: 0px 6px 12px;"> <!-- Adjusted column size for better fit --><br>
+                    <div class="card" style="background-color: hsla(0, 0%, 0%, 0.605); color: white; margin-right: 18px; height: 570px;">
+                        
+                        <div class="card-header">
+                            <h3 style="text-align: center; padding: 2px; color: rgb(227, 89, 8);">𝐇𝐞𝐚𝐭𝐍𝐂𝐡𝐢𝐥𝐥</h3>
+                        </div>
+                        
+                        <div class="card-body" align="center">  
+                            <img src="public/images/3.5k.jpg" alt="Image 1" class="img-fluid" height="0px" width="200px">
+                            <p style="margin-top: 14px;">𝑼𝑺𝑩 𝑷𝒐𝒓𝒕𝒂𝒃𝒍𝒆 𝑺𝒎𝒂𝒓𝒕 𝑾𝒂𝒕𝒆𝒓 𝑩𝒐𝒕𝒕𝒍𝒆<br> 𝟏𝟎𝟎𝟎 𝒎𝑳 𝑾𝒂𝒕𝒆𝒓 𝑪𝒂𝒑𝒂𝒄𝒊𝒕𝒚<br>𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆 𝑨𝒅𝒋𝒖𝒔𝒕𝒂𝒃𝒍𝒆<br>𝑩𝑷𝑨 𝑭𝒓𝒆𝒆 𝑷𝒍𝒂𝒔𝒕𝒊𝒄</p>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <button class="btn btn-primary">
+                                <a href="3.5k.html" target="_blank" class="my-button">Know More</a>
+                            </button>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.605); color: white;  height: 570px; height: 620px;">
+                        <div class="card-header">
+                            <h3 style="text-align: center; padding: 3px; color: rgb(227, 89, 8);">𝐂𝐡𝐢𝐥𝐥𝐇𝐞𝐚𝐭 𝐏𝐫𝐨</h3>
+                        </div>
+                        <div class="card-body" align="center">
+                            <img src="public/images/5k.jpg" alt="Image 1" class="img-fluid" height="300px" width="200px">
+                            <p style="margin-top: 14px;">𝑼𝑺𝑩 𝑷𝒐𝒓𝒕𝒂𝒃𝒍𝒆 𝑺𝒎𝒂𝒓𝒕 𝑾𝒂𝒕𝒆𝒓 𝑩𝒐𝒕𝒕𝒍𝒆<br> 𝟏𝟎𝟎𝟎 𝒎𝑳 𝑾𝒂𝒕𝒆𝒓 𝑪𝒂𝒑𝒂𝒄𝒊𝒕𝒚<br>𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆 𝑨𝒅𝒋𝒖𝒔𝒕𝒂𝒃𝒍𝒆<br>𝑫𝒊𝒔𝒑𝒍𝒂𝒚 𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆<br>𝑺𝒕𝒂𝒊𝒏𝒍𝒆𝒔𝒔 𝑺𝒕𝒆𝒆𝒍</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">
+                                <a href="5k.html" target="_blank" class="my-button">Know More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.605); color: white; height: 620px;">
+                        <div class="card-header">
+                            <h3 style="text-align: center; padding: 3px; color: rgb(227, 89, 8);">𝐅𝐥𝐨𝐰𝐓𝐞𝐦𝐩</h3>
+                        </div>
+                        <div class="card-body" align="center">
+                            <img src="public/images/7.5k.jpg" alt="Image 1" class="img-fluid" height="300px" width="200px">
+                            <p style="margin-top: 14px;">𝑼𝑺𝑩 𝑷𝒐𝒓𝒕𝒂𝒃𝒍𝒆 𝑺𝒎𝒂𝒓𝒕 𝑾𝒂𝒕𝒆𝒓 𝑩𝒐𝒕𝒕𝒍𝒆<br> 𝟏𝟎𝟎𝟎 𝒎𝑳 𝑾𝒂𝒕𝒆𝒓 𝑪𝒂𝒑𝒂𝒄𝒊𝒕𝒚<br>𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆 𝑨𝒅𝒋𝒖𝒔𝒕𝒂𝒃𝒍𝒆<br>𝑫𝒊𝒔𝒑𝒍𝒂𝒚 𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆<br>𝑺𝒕𝒂𝒊𝒏𝒍𝒆𝒔𝒔 𝑺𝒕𝒆𝒆𝒍<br>𝑶𝒍𝒆𝒅 𝑫𝒊𝒔𝒑𝒍𝒂𝒚<br>
+                            Unique Elite Design</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">
+                                <a href="7k.html" target="_blank" class="my-button">Know More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.605); color: white;">
+                        <div class="card-header">
+                            <h3 style="text-align: center; padding: 3px; color: rgb(227, 89, 8);">𝐒𝐧𝐚𝐩𝐓𝐡𝐞𝐫𝐦</h3>
+                        </div>
+                        <div class="card-body" align="center">
+                            <img src="public/images/10k.jpg" alt="Image 1" class="img-fluid" height="300px" width="200px">
+                            <p style="margin-top: 14px;">𝑼𝑺𝑩 𝑷𝒐𝒓𝒕𝒂𝒃𝒍𝒆 𝑺𝒎𝒂𝒓𝒕 𝑾𝒂𝒕𝒆𝒓 𝑩𝒐𝒕𝒕𝒍𝒆<br> 𝟏𝟎𝟎𝟎 𝒎𝑳 𝑾𝒂𝒕𝒆𝒓 𝑪𝒂𝒑𝒂𝒄𝒊𝒕𝒚<br>𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆 𝑨𝒅𝒋𝒖𝒔𝒕𝒂𝒃𝒍𝒆<br>𝑫𝒊𝒔𝒑𝒍𝒂𝒚 𝑻𝒆𝒎𝒑𝒆𝒓𝒂𝒕𝒖𝒓𝒆<br>𝑺𝒕𝒂𝒊𝒏𝒍𝒆𝒔𝒔 𝑺𝒕𝒆𝒆𝒍<br>𝑶𝒍𝒆𝒅 𝑫𝒊𝒔𝒑𝒍𝒂𝒚<br>
+                                𝑼𝒏𝒊𝒒𝒖𝒆 𝑬𝒍𝒊𝒕𝒆 𝑫𝒆𝒔𝒊𝒈𝒏<br>𝑳𝑬𝑫 𝑳𝒊𝒈𝒉𝒕 𝑺𝒕𝒓𝒊𝒑 𝑨𝒕𝒕𝒓𝒂𝒄𝒕𝒊𝒗𝒆𝒏𝒆𝒔𝒔<br>𝑰𝑶𝑻 𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔<br>𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓 𝑨𝒍𝒆𝒓𝒕</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">
+                                <a href="10k.html" target="_blank" class="my-button">Know More</a>
+                            </button>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </section>
+    </div>
+ <br><br>
+    <div class="border-top" style="width: 100vw;"></div><br><br> 
+<footer>
+    
+    <div>
+        <div class="brand"><span style="color: rgba(7, 129, 166, 0.715);">𝐀𝐫𝐜𝐭𝐢𝐜</span><span style="color: rgb(12, 157, 12);">𝐖𝐚𝐯𝐞</span></div>
+        <a href="#"><span class="bi bi-facebook"></span></a>
+        <a href="#"><span class="bi bi-instagram"></span></a>
+        <a href="#"><span class="bi bi-twitter"></span></a>
+        <a href="#"><span class="bi bi-youtube"></span></a>
+        </div>
+    
+        <div>
+        <div class="help" style="color: aqua; margin-bottom: 20px;">𝗦𝗨𝗣𝗣𝗢𝗥𝗧</div>   
+        <a href="#"><span>Contact us</span></a>
+        <a href="#"><span>FAQs</span></a>
+        <a href="#"><span>Guide</span></a>
+        <a href="#"><span>Shipping and Return</span></a>
+        </div>
+    
+        <div> 
+        <div class="help" style="color: aqua; margin-bottom: 20px;">𝗦𝗛𝗢𝗣</div>
+        <a href="3.5k.html"><span>HeatNChill</span></a>
+        <a href="5k.html"><span>ChillHeat Pro</span></a>
+        <a href="7k.html"><span>FlowTemp</span></a>
+        <a href="10k.html"><span>SnapTherm</span></a>
+        </div>
+        
+        <div>
+        <div class="help" style="color: aqua; margin-bottom: 20px;">𝗖𝗢𝗠𝗣𝗔𝗡𝗬</div>
+        <a href="aboutme.html" target="_blank" class="my-button"><span>Our Story Careers </span></a>
+        <a href="#"><span>Terms and Conditions</span></a>
+        <a href="#"><span>Privacy and Cookie Policy</span></a>
+        </div>
+    
+        <div>
+        <div class="help" style="color: aqua; margin-bottom: 20px;">𝗖𝗢𝗡𝗧𝗔𝗖𝗧</div>
+        <span style="display: block; padding: 5px; color: red;">1-202-555-0105</span>
+        <span style="display: block; padding: 5px; color: red;">1-202-555-0109</span>
+        <a href="#"><span>help@dualsip.com</span></a>
+        </div>
+</footer>
+</body>
+</html>
